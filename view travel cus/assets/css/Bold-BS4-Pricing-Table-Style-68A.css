@@ -1,0 +1,98 @@
+.pricingTable {
+  padding: 30px 0;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.pricingTable:hover:before {
+  right: 0;
+}
+
+.pricingTable .title {
+  font-size: 24px;
+  color: #3a405a;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.pricingTable .price-value {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3a405a;
+  margin-bottom: 10px;
+}
+
+.pricingTable .month {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: normal;
+  color: #3a405a;
+}
+
+.pricingTable .pricingTable-signup {
+  display: inline-block;
+  padding: 7px 30px;
+  background: #9d1e33;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.pricingTable:hover .pricingTable-signup {
+  /*border-radius: 30px;*/
+}
+
+@media only screen and (max-width: 990px) {
+  .pricingTable {
+    margin-bottom: 30px;
+  }
+}
+
+.dropdown-item:hover {
+  background-color: darkblue;
+  color: #00008b;
+}
+
+a {
+}
+
+.add {
+  width: fit-content;
+  margin-left: 47%;
+  margin-top: 30px;
+  background-color: #405223;
+  padding: 16px;
+  border-radius: 25px;
+}
+
+.add-a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.add:hover {
+  background-color: #734c21;
+}
+
+.add-a:hover {
+  color: #ffffff;
+}
+
+.pricingTable:hover {
+  /*background-color: #00008b;*/
+}
+
+.pricingTable-signup:hover {
+  background-color: #5d0e0e;
+}
+
+.add {
+  background-color: #734c21;
+  color: #dccab4;
+  /*font color: #dccab4;*/
+}
+
